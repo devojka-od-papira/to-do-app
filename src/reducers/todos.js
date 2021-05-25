@@ -1,5 +1,5 @@
 const initialState = {
-  name: "Dont be sad Bojana!",
+  tasks: [{ taskName: "Vezbaj jos redux, ps mrtav si", id: 1 }],
 };
 
 export default (state = initialState, action) => {

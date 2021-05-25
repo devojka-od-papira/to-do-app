@@ -1,6 +1,7 @@
 import React from "react";
-import AddTodo from "./components/addTodoList";
-import style from "./style.css";
+import AddInput from "./components/addInput";
+import Task from "./components/task";
+import "./style.css";
 
 function App() {
   return (
@@ -13,8 +14,11 @@ function App() {
         </nav>
         <main>
           <section>
-            <div className="todo-app">
-              <AddTodo />
+            <div>
+              <AddInput />
+            </div>
+            <div>
+              <Task />
             </div>
           </section>
         </main>
