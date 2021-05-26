@@ -8,7 +8,11 @@ function Button({ name, onClick }) {
     dispatch(onClick());
   };
 
-  return <button onClick={handleClick}>{name}</button>;
+  return (
+    <button className="btn" onClick={handleClick}>
+      {name}
+    </button>
+  );
 }
 
 export default Button;
