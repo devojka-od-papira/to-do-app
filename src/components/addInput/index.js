@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "../button";
+import "./../addInput/style.css";
 
 import { useSelector } from "react-redux";
 import { addTaskAction } from "../../action";
